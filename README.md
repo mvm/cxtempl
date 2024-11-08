@@ -20,3 +20,8 @@ command `python setup.py --help-commands` show all options for
 building an application and distributions. In the file `setup.py`
 the variables such as the project name, version, packages,
 dependencies and others should be configured.
+
+## Running tests
+
+To run the tests, install `pytest` using pip and run it in the
+project's root folder.
