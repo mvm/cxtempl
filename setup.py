@@ -8,7 +8,6 @@ exe_options = {
 setup(name="cxtempl",
       version = "0.0.1",
       install_requires = [
-          "wxPython>=4.2.2"
       ],
       options = {
           "build_exe": exe_options
