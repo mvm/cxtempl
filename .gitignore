@@ -1,0 +1,7 @@
+# Output and environment directories for the build system
+env/
+build/
+dist/
+
+# Cache directories
+__pycache__/
