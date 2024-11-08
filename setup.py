@@ -1,7 +1,7 @@
 from cx_Freeze import Executable, setup
 
 exe_options = {
-    "includes": ["cxtemplsample"],
+    "includes": ["sample"],
     "include_path": "src/"
 }
 

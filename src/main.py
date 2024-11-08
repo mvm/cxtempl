@@ -1,4 +1,4 @@
-import cxtemplsample
+import sample
 
 print("Hello World!")
-print("The data returned is: ", cxtemplsample.return_value())
+print("The data returned is: ", sample.return_value())
