@@ -5,3 +5,4 @@ dist/
 
 # Cache directories
 __pycache__/
+.pytest_cache/
