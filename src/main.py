@@ -1,6 +1,7 @@
-from tkinter import *
+from tkinter import Tk
+import tkinter.ttk as ttk
 
 root = Tk()
-a = Label(root, text="Hello World")
+a = ttk.Label(root, text="Hello World")
 a.pack()
 root.mainloop()

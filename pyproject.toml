@@ -14,7 +14,7 @@ executables = [
 ]
 
 [tool.cxfreeze.build_exe]
-includes = ["sample", "tkinter"]
+includes = ["sample", "tkinter", "tkinter.ttk"]
 include_path = "src/"
 
 [pytest]
