@@ -1,0 +1,25 @@
+[project]
+name = "cxtempl"
+version = "0.0.1"
+description = "A sample template for Python apps"
+dependencies = [
+    "toga"
+]
+
+[tool.setuptools.packages.find]
+where = ["src/"]
+
+[tool.cxfreeze]
+executables = [
+    {script = "src/main.py", base = "gui"}
+]
+
+[tool.cxfreeze.build_exe]
+includes = ["sample"]
+include_path = "src/"
+
+[pytest]
+testpaths = [
+    "tests"
+]
+pythonpath = [ "src" ]
