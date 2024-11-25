@@ -1,4 +1,6 @@
-import sample
+from tkinter import *
 
-print("Hello World!")
-print("The data returned is: ", sample.return_value())
+root = Tk()
+a = Label(root, text="Hello World")
+a.pack()
+root.mainloop()
