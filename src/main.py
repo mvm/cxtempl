@@ -1,7 +1,8 @@
 from tkinter import Tk
-import tkinter.ttk as ttk
+from tkinter import ttk
 
 root = Tk()
+root.title("cxtempl")
 a = ttk.Label(root, text="Hello World")
 a.pack()
 root.mainloop()
